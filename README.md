@@ -26,5 +26,11 @@ $ source /<nome>/bin/activate
 
 Onde `nome` é o nome do ambiente virtual escolhido no comando da criação. Após a execução do comando nosso terminal sinalizará que nosso ambiente virtual está ativado e que todos os comandos irão rodar apenas nele.
 
+Caso seja necessário utilizar dentro do ambiente virtual uma versão diferente do python, utilizar o comando abaixo na criação do ambiente virtual:
+
+```
+$ virtualenv --python=/path/to/python <nome>
+```
+
  ### Exemplos
    - [Aplicação de linha de comando](/pontopy)
