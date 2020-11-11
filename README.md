@@ -32,5 +32,11 @@ Caso seja necessário utilizar dentro do ambiente virtual uma versão diferente 
 $ virtualenv --python=/path/to/python <nome>
 ```
 
+Para descobrir o caminho do python:
+
+```
+which python //ou python3
+```
+
  ### Exemplos
    - [Aplicação de linha de comando](/pontopy)
